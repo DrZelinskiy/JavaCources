@@ -1,0 +1,204 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/28.1.2 Chrome/138.0.7204.243 Electron/37.4.0 Safari/537.36" version="28.1.2">
+  <diagram name="Страница — 1" id="BjMsGFofKaV-3vp28UVl">
+    <mxGraphModel dx="4591" dy="5005" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="2336" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="FA9FgQIWrgte8bPHiNqD-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="FA9FgQIWrgte8bPHiNqD-1" target="FA9FgQIWrgte8bPHiNqD-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FA9FgQIWrgte8bPHiNqD-1" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_2;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="840" y="-2210" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="FA9FgQIWrgte8bPHiNqD-70" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="FA9FgQIWrgte8bPHiNqD-2" target="FA9FgQIWrgte8bPHiNqD-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FA9FgQIWrgte8bPHiNqD-2" value="Сообщение:&lt;div&gt;&quot;Задайте длину массива данных&quot;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="765" y="-2130" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="FA9FgQIWrgte8bPHiNqD-71" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="FA9FgQIWrgte8bPHiNqD-5" target="FA9FgQIWrgte8bPHiNqD-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FA9FgQIWrgte8bPHiNqD-5" value="Ввод длины массива&lt;div&gt;count&lt;/div&gt;" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" vertex="1" parent="1">
+          <mxGeometry x="765" y="-2060" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="FA9FgQIWrgte8bPHiNqD-74" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="FA9FgQIWrgte8bPHiNqD-7" target="FA9FgQIWrgte8bPHiNqD-45">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FA9FgQIWrgte8bPHiNqD-7" value="Инициализация массива&lt;div&gt;array[count] и его заполнение&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="765" y="-1840" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="FA9FgQIWrgte8bPHiNqD-72" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="FA9FgQIWrgte8bPHiNqD-9" target="FA9FgQIWrgte8bPHiNqD-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FA9FgQIWrgte8bPHiNqD-9" value="Сообщение:&lt;div&gt;&quot;Задайте интервал чисел для заполнения массива&quot;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="765" y="-1990" width="200" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="FA9FgQIWrgte8bPHiNqD-73" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="FA9FgQIWrgte8bPHiNqD-10" target="FA9FgQIWrgte8bPHiNqD-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FA9FgQIWrgte8bPHiNqD-10" value="Ввод интервала&lt;div&gt;bound&lt;/div&gt;" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" vertex="1" parent="1">
+          <mxGeometry x="765" y="-1910" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="FA9FgQIWrgte8bPHiNqD-57" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="FA9FgQIWrgte8bPHiNqD-11" target="FA9FgQIWrgte8bPHiNqD-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FA9FgQIWrgte8bPHiNqD-11" value="array[i] &amp;gt; array[i + 1]" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="680" y="-1380" width="140" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="FA9FgQIWrgte8bPHiNqD-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="FA9FgQIWrgte8bPHiNqD-12" target="FA9FgQIWrgte8bPHiNqD-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FA9FgQIWrgte8bPHiNqD-12" value="Смещение элемента вправо&lt;div&gt;temp = array[i];&lt;/div&gt;&lt;div&gt;array[i] = array[i + 1];&lt;/div&gt;&lt;div&gt;array[i+1] = temp&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="650" y="-1250" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="FA9FgQIWrgte8bPHiNqD-13" value="Вывод отсортированного массива" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1140" y="-880" width="200" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="FA9FgQIWrgte8bPHiNqD-16" value="Если элемент больше последущего,&lt;div&gt;то он переносится на позицию последущего,&lt;/div&gt;&lt;div&gt;а последущий, на предыдущую через&lt;/div&gt;&lt;div style=&quot;&quot;&gt;временную переменную&lt;/div&gt;" style="text;html=1;align=right;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="320" y="-1255" width="270" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="FA9FgQIWrgte8bPHiNqD-17" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;pointerEvents=1;flipH=1;" vertex="1" parent="1">
+          <mxGeometry x="560" y="-1270" width="90" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="FA9FgQIWrgte8bPHiNqD-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="FA9FgQIWrgte8bPHiNqD-18" target="FA9FgQIWrgte8bPHiNqD-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FA9FgQIWrgte8bPHiNqD-18" value="Изменение счетчика i&lt;div&gt;i++&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="650" y="-1150" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="FA9FgQIWrgte8bPHiNqD-56" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="FA9FgQIWrgte8bPHiNqD-21" target="FA9FgQIWrgte8bPHiNqD-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FA9FgQIWrgte8bPHiNqD-21" value="i &amp;lt; right?" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="700" y="-990" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="FA9FgQIWrgte8bPHiNqD-24" value="Увеличение счетчика количества&lt;div&gt;перемещений элементов массива&lt;/div&gt;&lt;div&gt;flag++&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="650" y="-1080" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="FA9FgQIWrgte8bPHiNqD-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="FA9FgQIWrgte8bPHiNqD-21" target="FA9FgQIWrgte8bPHiNqD-11">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="310" y="-940" />
+              <mxPoint x="310" y="-1335" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FA9FgQIWrgte8bPHiNqD-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="FA9FgQIWrgte8bPHiNqD-24" target="FA9FgQIWrgte8bPHiNqD-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FA9FgQIWrgte8bPHiNqD-64" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="FA9FgQIWrgte8bPHiNqD-30" target="FA9FgQIWrgte8bPHiNqD-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FA9FgQIWrgte8bPHiNqD-30" value="Проверка величины левой и правой границ массива, а также наличие перемещний&lt;div&gt;(left &amp;lt; right &amp;amp;&amp;amp; flag &amp;gt; 0)&lt;/div&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.loop_limit;whiteSpace=wrap;flipH=0;flipV=1;" vertex="1" parent="1">
+          <mxGeometry x="750" y="-1570" width="230" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="FA9FgQIWrgte8bPHiNqD-32" value="Сдвигаем границу массива справа&lt;div&gt;right--&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="650" y="-865" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="FA9FgQIWrgte8bPHiNqD-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="FA9FgQIWrgte8bPHiNqD-34" target="FA9FgQIWrgte8bPHiNqD-35">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FA9FgQIWrgte8bPHiNqD-34" value="array[i - 1] &amp;gt; array[i]" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="680" y="-790" width="140" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="FA9FgQIWrgte8bPHiNqD-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="FA9FgQIWrgte8bPHiNqD-35" target="FA9FgQIWrgte8bPHiNqD-36">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FA9FgQIWrgte8bPHiNqD-35" value="Смещение элемента влево&lt;div&gt;temp = array[i];&lt;/div&gt;&lt;div&gt;array[i] = array[i - 1];&lt;/div&gt;&lt;div&gt;array[i - 1] = temp&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="650" y="-660" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="FA9FgQIWrgte8bPHiNqD-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="FA9FgQIWrgte8bPHiNqD-36" target="FA9FgQIWrgte8bPHiNqD-49">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FA9FgQIWrgte8bPHiNqD-36" value="Изменение счетчика i&lt;div&gt;i--&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="650" y="-570" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="FA9FgQIWrgte8bPHiNqD-37" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;pointerEvents=1;flipH=1;" vertex="1" parent="1">
+          <mxGeometry x="560" y="-1155" width="90" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="FA9FgQIWrgte8bPHiNqD-39" value="Проход массива осуществляеся слева направо&lt;div&gt;(i = left; i &amp;lt; right; i++)&lt;/div&gt;" style="text;html=1;align=right;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="297" y="-1150" width="290" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="FA9FgQIWrgte8bPHiNqD-40" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;pointerEvents=1;flipH=1;" vertex="1" parent="1">
+          <mxGeometry x="560" y="-575" width="90" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="FA9FgQIWrgte8bPHiNqD-41" value="Проход массива осуществляеся справа налево&lt;div&gt;(i = right; i &amp;gt; left; i--)&lt;/div&gt;" style="text;html=1;align=right;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="297" y="-570" width="290" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="FA9FgQIWrgte8bPHiNqD-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="FA9FgQIWrgte8bPHiNqD-32" target="FA9FgQIWrgte8bPHiNqD-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FA9FgQIWrgte8bPHiNqD-75" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="FA9FgQIWrgte8bPHiNqD-45" target="FA9FgQIWrgte8bPHiNqD-69">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FA9FgQIWrgte8bPHiNqD-45" value="Ввод граничных переменных&lt;div&gt;left = 0&lt;/div&gt;&lt;div&gt;right = count - 1&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="765" y="-1770" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="FA9FgQIWrgte8bPHiNqD-59" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="FA9FgQIWrgte8bPHiNqD-46" target="FA9FgQIWrgte8bPHiNqD-58">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FA9FgQIWrgte8bPHiNqD-46" value="i &amp;gt; left?" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="700" y="-410" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="FA9FgQIWrgte8bPHiNqD-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="FA9FgQIWrgte8bPHiNqD-46" target="FA9FgQIWrgte8bPHiNqD-34">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="310" y="-360" />
+              <mxPoint x="310" y="-745" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FA9FgQIWrgte8bPHiNqD-49" value="Увеличение счетчика количества&lt;div&gt;перемещений элементов массива&lt;/div&gt;&lt;div&gt;flag++&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="650" y="-500" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="FA9FgQIWrgte8bPHiNqD-51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="FA9FgQIWrgte8bPHiNqD-49" target="FA9FgQIWrgte8bPHiNqD-46">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FA9FgQIWrgte8bPHiNqD-58" value="Сдвигаем границу массива слева&lt;div&gt;left++&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="650" y="-280" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="FA9FgQIWrgte8bPHiNqD-60" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="FA9FgQIWrgte8bPHiNqD-58" target="FA9FgQIWrgte8bPHiNqD-30">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="730" y="-1530" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="650" y="-250" />
+              <mxPoint x="270" y="-250" />
+              <mxPoint x="270" y="-1525" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FA9FgQIWrgte8bPHiNqD-62" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="FA9FgQIWrgte8bPHiNqD-30" target="FA9FgQIWrgte8bPHiNqD-11">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="865" y="-1470" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="865" y="-1440" />
+              <mxPoint x="750" y="-1440" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FA9FgQIWrgte8bPHiNqD-63" value="Условия соблюдены" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="730" y="-1460" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="FA9FgQIWrgte8bPHiNqD-65" value="Флаг перемещений больше нуля&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;и&lt;/span&gt;&lt;div&gt;левая и правая границы не совпадают&lt;/div&gt;" style="text;html=1;align=right;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;rotation=0;" vertex="1" parent="1">
+          <mxGeometry x="460" y="-1465" width="240" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="FA9FgQIWrgte8bPHiNqD-66" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;pointerEvents=1;rotation=-180;" vertex="1" parent="1">
+          <mxGeometry x="690" y="-1467.5" width="40" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="FA9FgQIWrgte8bPHiNqD-67" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.flowchart.or;" vertex="1" parent="1">
+          <mxGeometry x="1205" y="-295" width="70" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="FA9FgQIWrgte8bPHiNqD-68" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="FA9FgQIWrgte8bPHiNqD-13" target="FA9FgQIWrgte8bPHiNqD-67">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FA9FgQIWrgte8bPHiNqD-69" value="Ввод переменной флага перемещений&lt;div&gt;Присваивание ему значения, удовлетворяющего условиям цикла&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="765" y="-1680" width="200" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="FA9FgQIWrgte8bPHiNqD-76" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="FA9FgQIWrgte8bPHiNqD-69" target="FA9FgQIWrgte8bPHiNqD-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
