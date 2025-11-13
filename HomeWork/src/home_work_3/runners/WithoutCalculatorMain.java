@@ -1,5 +1,5 @@
-package home_work_3.calcs.runners;
-//4.1 + 15 * 7 + (28 / 5) ^ 2
+package home_work_3.runners;
+
 public class WithoutCalculatorMain {
     public static void main(String[] args) {
         String input = "4.1 + 15 * 7 + (28 / 5) ^ 2";

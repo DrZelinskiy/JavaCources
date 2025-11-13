@@ -1,6 +1,6 @@
-package home_work_3.calcs.runners;
+package home_work_3_old.runners;
 
-import home_work_3.calcs.simple.CalculatorWithOperator;
+import home_work_3_old.calcs.simple.CalculatorWithOperator;
 
 //4.1 + 15 * 7 + (28 / 5) ^ 2
 public class CalculatorWithOperatorMain {

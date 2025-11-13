@@ -1,20 +1,20 @@
 package home_work_3.calcs.simple;
 
-public class CalculatorWithMathExtends extends CalculatorWithOperator{
+import home_work_3.calcs.api.ICalculator;
 
-    public double Exponentiation(double base, int exponent) {
-        System.out.println("Вычисление возведения в степень через библиотеку Math");
+public class CalculatorWithMathExtends extends CalculatorWithOperator {
+    @Override
+    public double exponent(double base, int exponent) {
         return Math.pow(base, exponent);
     }
 
-    public double Module(double baseModule) {
-        System.out.println("Получение модуля числа через библиотеку Math");
+    @Override
+    public double module(double baseModule) {
         return Math.abs(baseModule);
     }
 
-    public double SquareRoot(int baseRoot) {
-        System.out.println("Получение квадратного корня числа через библиотеку Math");
+    @Override
+    public double squareRoot(int baseRoot) {
         return Math.sqrt(baseRoot);
     }
-
 }

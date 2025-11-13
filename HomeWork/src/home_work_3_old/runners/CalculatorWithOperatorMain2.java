@@ -1,13 +1,15 @@
-package home_work_3.calcs.runners;
+package home_work_3_old.runners;
+//Это исполнение исключительно для посчета результата математического выражения в задании, с автоматическим получаением чисел из него
+//Можно только добавлять слагаемые, вычитания в скрипте нету. А, и деления как отдельное слагаемое или вычитаемое тоже нет, но доработать можно
+//Но этот скрипт разложит каждое слагаемое, при доработке и вычитаемые
 
-import home_work_3.calcs.additional.CalculatorWithCounterClassic;
+import home_work_3_old.calcs.simple.CalculatorWithOperator;
 
 import java.util.Arrays;
 
-public class CalculatorWithCounterClassicMain {
-
-    static CalculatorWithCounterClassic clr = new CalculatorWithCounterClassic();
-
+//4.1 + 15 * 7 + (28 / 5) ^ 2
+public class CalculatorWithOperatorMain2 {
+    static CalculatorWithOperator clr = new CalculatorWithOperator();
     public static void main(String[] args) {
 
         String inputMath = "4.1 + 15 * 7 + (28 / 5) ^ 2";
@@ -19,7 +21,7 @@ public class CalculatorWithCounterClassicMain {
         for (String additives : additivesInInputMath){
             counterPlus++;
         }
-        System.out.println("Массив слогаемых выражения: " + Arrays.toString(additivesInInputMath));
+        System.out.println("Массив слагаемых выражения: " + Arrays.toString(additivesInInputMath));
         for (int j = 0; j < additivesInInputMath.length; j++) {
             int getMulti = 0;
             int getExp = 0;
@@ -79,8 +81,6 @@ public class CalculatorWithCounterClassicMain {
 
         resultOfInputMath = Double.parseDouble(additivesInInputMath[counterPlus - 1]);
         System.out.println(inputMath + " = " + resultOfInputMath);
-
-        System.out.println(clr.getCountOperation());
 
     }
 

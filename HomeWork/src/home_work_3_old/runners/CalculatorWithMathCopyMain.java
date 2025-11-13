@@ -1,6 +1,6 @@
-package home_work_3.calcs.runners;
+package home_work_3_old.runners;
 
-import home_work_3.calcs.simple.CalculatorWithMathCopy;
+import home_work_3_old.calcs.simple.CalculatorWithMathCopy;
 
 import java.util.Arrays;
 

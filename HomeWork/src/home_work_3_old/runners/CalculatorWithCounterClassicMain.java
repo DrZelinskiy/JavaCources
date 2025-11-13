@@ -1,12 +1,12 @@
-package home_work_3.calcs.runners;
+package home_work_3_old.runners;
 
-import home_work_3.calcs.simple.CalculatorWithMathExtends;
+import home_work_3_old.calcs.additional.CalculatorWithCounterClassic;
 
 import java.util.Arrays;
 
-public class CalculatorWithMathExtendsMain {
+public class CalculatorWithCounterClassicMain {
 
-    static CalculatorWithMathExtends clr = new CalculatorWithMathExtends();
+    static CalculatorWithCounterClassic clr = new CalculatorWithCounterClassic();
 
     public static void main(String[] args) {
 
@@ -79,6 +79,8 @@ public class CalculatorWithMathExtendsMain {
 
         resultOfInputMath = Double.parseDouble(additivesInInputMath[counterPlus - 1]);
         System.out.println(inputMath + " = " + resultOfInputMath);
+
+        System.out.println(clr.getCountOperation());
 
     }
 
