@@ -2,6 +2,7 @@ package home_work_4;
 
 import java.util.Arrays;
 import java.util.Comparator;
+import java.util.Iterator;
 
 import static home_work_4.DataContainer.sort;
 
@@ -164,6 +165,17 @@ public class DataContainerMain {
         System.out.println("До сортировки: " + Arrays.toString(container12.getItems()));
         sort(container12, Comparator.reverseOrder());
         System.out.println("После сортировки: " + Arrays.toString(container12.getItems()) + "\n");
+
+        // Task 13
+        Integer[] input13 = {3, 29, 1, 98, 7, 42, 13, 24, 5};
+        DataContainer<Integer> container13 = new DataContainer<>(input13);
+
+        Iterator<Integer> iterator = container13.iterator();
+
+        System.out.print("Task 13 output: ");
+        while (iterator.hasNext()){
+            System.out.print(iterator.next() + " ");
+        }
 
     }
 }

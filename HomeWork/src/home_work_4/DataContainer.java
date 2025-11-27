@@ -1,9 +1,11 @@
 package home_work_4;
 
+import org.w3c.dom.ls.LSOutput;
+
 import java.util.*;
 import java.util.function.Consumer;
 
-public class DataContainer<T> {
+public class DataContainer<T> implements Iterable<T>{
 
     private T input;
     
@@ -193,4 +195,26 @@ public class DataContainer<T> {
             }
         }
     }
+
+    public Iterator<T> iterator() {
+        return new DataContainerIterator();
+    }
+
+    private class DataContainerIterator implements Iterator<T> {
+        private int position = 0;
+        @Override
+        public boolean hasNext() {
+            return position < data.length;
+        }
+
+        @Override
+        public T next() {
+            if (!hasNext()){
+                throw new NoSuchElementException("Нет больше элементов");
+                //System.out.println("Нет элемента!");
+            }
+            return data[position++];
+        }
+    }
+
 }
